@@ -8,7 +8,10 @@ const Sandbox: React.FC = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/sandbox/page1">Sandbox Page 1</Link>
+            <Link to="/sandbox/utility-first">Utility First</Link>
+            <Link to="/sandbox/colors">Colors</Link>
+            <Link to="/sandbox/container-spacing">Container Spacing</Link>
+            <Link to="/sandbox/typography">Typography</Link>
           </li>
         </ul>
       </nav>
