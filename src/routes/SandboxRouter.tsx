@@ -6,6 +6,7 @@ import Colors from "../components/pages/sandbox/sub-pages/Colors";
 import ContainerSpacing from "../components/pages/sandbox/sub-pages/ContainerSpacing";
 import Typography from "../components/pages/sandbox/sub-pages/Typography";
 import Sizing from "../components/pages/sandbox/sub-pages/Sizing";
+import LayoutPosition from "../components/pages/sandbox/sub-pages/LayoutPosition";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="container-spacing" element={<ContainerSpacing />} />
       <Route path="typography" element={<Typography />} />
       <Route path="sizing" element={<Sizing />} />
+      <Route path="layout-position" element={<LayoutPosition />} />
     </Routes>
   );
 };

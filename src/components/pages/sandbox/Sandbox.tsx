@@ -13,6 +13,7 @@ const Sandbox: React.FC = () => {
             <Link to="/sandbox/container-spacing">Container Spacing</Link>
             <Link to="/sandbox/typography">Typography</Link>
             <Link to="/sandbox/sizing">Sizing</Link>
+            <Link to="/sandbox/layout-position">Layout & Position</Link>
           </li>
         </ul>
       </nav>
