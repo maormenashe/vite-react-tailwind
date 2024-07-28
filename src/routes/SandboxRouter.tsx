@@ -7,6 +7,7 @@ import ContainerSpacing from "../components/pages/sandbox/sub-pages/ContainerSpa
 import Typography from "../components/pages/sandbox/sub-pages/Typography";
 import Sizing from "../components/pages/sandbox/sub-pages/Sizing";
 import LayoutPosition from "../components/pages/sandbox/sub-pages/LayoutPosition";
+import BackgroundShadows from "../components/pages/sandbox/sub-pages/BackgroundsShadows";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="typography" element={<Typography />} />
       <Route path="sizing" element={<Sizing />} />
       <Route path="layout-position" element={<LayoutPosition />} />
+      <Route path="backgrounds-shadows" element={<BackgroundShadows />} />
     </Routes>
   );
 };

@@ -14,6 +14,7 @@ const Sandbox: React.FC = () => {
             <Link to="/sandbox/typography">Typography</Link>
             <Link to="/sandbox/sizing">Sizing</Link>
             <Link to="/sandbox/layout-position">Layout & Position</Link>
+            <Link to="/sandbox/backgrounds-shadows">Backgrounds & Shadows</Link>
           </li>
         </ul>
       </nav>
