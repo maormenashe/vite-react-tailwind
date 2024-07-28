@@ -5,6 +5,7 @@ import UtilityFirst from "../components/pages/sandbox/sub-pages/UtilityFirst";
 import Colors from "../components/pages/sandbox/sub-pages/Colors";
 import ContainerSpacing from "../components/pages/sandbox/sub-pages/ContainerSpacing";
 import Typography from "../components/pages/sandbox/sub-pages/Typography";
+import Sizing from "../components/pages/sandbox/sub-pages/Sizing";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="colors" element={<Colors />} />
       <Route path="container-spacing" element={<ContainerSpacing />} />
       <Route path="typography" element={<Typography />} />
+      <Route path="sizing" element={<Sizing />} />
     </Routes>
   );
 };
