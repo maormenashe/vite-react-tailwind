@@ -9,6 +9,7 @@ import Sizing from "../components/pages/sandbox/sub-pages/Sizing";
 import LayoutPosition from "../components/pages/sandbox/sub-pages/LayoutPosition";
 import BackgroundShadows from "../components/pages/sandbox/sub-pages/BackgroundsShadows";
 import BordersBorderRadius from "../components/pages/sandbox/sub-pages/BordersBorderRadius";
+import Filters from "../components/pages/sandbox/sub-pages/Filters";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="layout-position" element={<LayoutPosition />} />
       <Route path="backgrounds-shadows" element={<BackgroundShadows />} />
       <Route path="borders-border-radius" element={<BordersBorderRadius />} />
+      <Route path="filters" element={<Filters />} />
     </Routes>
   );
 };
