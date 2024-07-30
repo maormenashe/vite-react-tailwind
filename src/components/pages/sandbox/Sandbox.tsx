@@ -19,6 +19,7 @@ const Sandbox: React.FC = () => {
               Borders & Border Radius
             </Link>
             <Link to="/sandbox/filters">Filters</Link>
+            <Link to="/sandbox/interactivity">Interactivity</Link>
           </li>
         </ul>
       </nav>
