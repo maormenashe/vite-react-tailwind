@@ -11,6 +11,7 @@ import BackgroundShadows from "../components/pages/sandbox/sub-pages/Backgrounds
 import BordersBorderRadius from "../components/pages/sandbox/sub-pages/BordersBorderRadius";
 import Filters from "../components/pages/sandbox/sub-pages/Filters";
 import Interactivity from "../components/pages/sandbox/sub-pages/Interactivity";
+import BreakpointMediaQueries from "../components/pages/sandbox/sub-pages/BreakpointMediaQueries";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -26,6 +27,10 @@ const SandboxRouter: React.FC = () => {
       <Route path="borders-border-radius" element={<BordersBorderRadius />} />
       <Route path="filters" element={<Filters />} />
       <Route path="interactivity" element={<Interactivity />} />
+      <Route
+        path="breakpoint-media-queries"
+        element={<BreakpointMediaQueries />}
+      />
     </Routes>
   );
 };
