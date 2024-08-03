@@ -14,6 +14,7 @@ import Interactivity from "../components/pages/sandbox/sub-pages/Interactivity";
 import BreakpointMediaQueries from "../components/pages/sandbox/sub-pages/BreakpointMediaQueries";
 import Columns from "../components/pages/sandbox/sub-pages/Columns";
 import FlexBox from "../components/pages/sandbox/sub-pages/FlexBox";
+import Grid from "../components/pages/sandbox/sub-pages/Grid";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -35,6 +36,7 @@ const SandboxRouter: React.FC = () => {
       />
       <Route path="columns" element={<Columns />} />
       <Route path="flex" element={<FlexBox />} />
+      <Route path="grid" element={<Grid />} />
     </Routes>
   );
 };

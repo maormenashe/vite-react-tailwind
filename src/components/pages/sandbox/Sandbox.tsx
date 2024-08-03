@@ -33,6 +33,7 @@ const Sandbox: React.FC = () => {
           />
           <SandBoxLink to="/sandbox/columns" text="Column Layouts" />
           <SandBoxLink to="/sandbox/flex" text="Flex Box" />
+          <SandBoxLink to="/sandbox/grid" text="Grid" />
         </ul>
       </nav>
     </div>
