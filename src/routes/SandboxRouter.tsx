@@ -16,6 +16,7 @@ import Columns from "../components/pages/sandbox/sub-pages/Columns";
 import FlexBox from "../components/pages/sandbox/sub-pages/FlexBox";
 import Grid from "../components/pages/sandbox/sub-pages/Grid";
 import TransitionTransform from "../components/pages/sandbox/sub-pages/TransitionTransform";
+import AnimationKeyframes from "../components/pages/sandbox/sub-pages/AnimationKeyframes";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -39,6 +40,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="flex" element={<FlexBox />} />
       <Route path="grid" element={<Grid />} />
       <Route path="transition-transform" element={<TransitionTransform />} />
+      <Route path="animation-keyframes" element={<AnimationKeyframes />} />
     </Routes>
   );
 };

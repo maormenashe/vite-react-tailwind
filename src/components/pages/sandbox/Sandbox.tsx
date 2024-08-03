@@ -38,6 +38,10 @@ const Sandbox: React.FC = () => {
             to="transition-transform"
             text="Transition & Transform"
           />
+          <SandBoxLink
+            to="/sandbox/animation-keyframes"
+            text="Animation & Keyframes"
+          />
         </ul>
       </nav>
     </div>
