@@ -32,6 +32,7 @@ const Sandbox: React.FC = () => {
             text="Breakpoint & MediaQueries"
           />
           <SandBoxLink to="/sandbox/columns" text="Column Layouts" />
+          <SandBoxLink to="/sandbox/flex" text="Flex Box" />
         </ul>
       </nav>
     </div>

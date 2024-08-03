@@ -13,6 +13,7 @@ import Filters from "../components/pages/sandbox/sub-pages/Filters";
 import Interactivity from "../components/pages/sandbox/sub-pages/Interactivity";
 import BreakpointMediaQueries from "../components/pages/sandbox/sub-pages/BreakpointMediaQueries";
 import Columns from "../components/pages/sandbox/sub-pages/Columns";
+import FlexBox from "../components/pages/sandbox/sub-pages/FlexBox";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -33,6 +34,7 @@ const SandboxRouter: React.FC = () => {
         element={<BreakpointMediaQueries />}
       />
       <Route path="columns" element={<Columns />} />
+      <Route path="flex" element={<FlexBox />} />
     </Routes>
   );
 };
