@@ -17,6 +17,7 @@ import FlexBox from "../components/pages/sandbox/sub-pages/FlexBox";
 import Grid from "../components/pages/sandbox/sub-pages/Grid";
 import TransitionTransform from "../components/pages/sandbox/sub-pages/TransitionTransform";
 import AnimationKeyframes from "../components/pages/sandbox/sub-pages/AnimationKeyframes";
+import DarkMode from "../components/pages/sandbox/sub-pages/DarkMode";
 
 const SandboxRouter: React.FC = () => {
   return (
@@ -41,6 +42,7 @@ const SandboxRouter: React.FC = () => {
       <Route path="grid" element={<Grid />} />
       <Route path="transition-transform" element={<TransitionTransform />} />
       <Route path="animation-keyframes" element={<AnimationKeyframes />} />
+      <Route path="dark-mode" element={<DarkMode />} />
     </Routes>
   );
 };

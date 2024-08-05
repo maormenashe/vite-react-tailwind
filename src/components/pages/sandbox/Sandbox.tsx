@@ -42,6 +42,7 @@ const Sandbox: React.FC = () => {
             to="/sandbox/animation-keyframes"
             text="Animation & Keyframes"
           />
+          <SandBoxLink to="/sandbox/dark-mode" text="Dark Mode" />
         </ul>
       </nav>
     </div>
