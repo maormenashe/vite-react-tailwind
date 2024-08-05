@@ -37,7 +37,7 @@ const BreakpointMediaQueries: React.FC = () => {
         dignissimos nemo aliquam tenetur eveniet quod cumque odio soluta, ipsam
         sit consequuntur est totam quaerat cupiditate quibusdam eligendi maiores
         impedit harum, molestiae animi.
-        <h1 className="text-white text-xl md:text-3xl xl:text-5xl">
+        <h1 className="text-primary text-xl md:text-3xl xl:text-5xl">
           Width: {windowSize.width}px
         </h1>
       </div>

@@ -2,7 +2,28 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      sm: "550px",
+      md: "800px",
+      lg: "1200px",
+      xl: "1440px",
+    },
+    fontFamily: {
+      sans: ["Graphik", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+    },
     extend: {
+      colors: {
+        primary: "#ff5733",
+        secondary: "#fffc33",
+      },
+      spacing: {
+        6: "2.5rem",
+        128: "32rem",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+      },
       transitionDuration: {
         2000: "2000ms",
       },
